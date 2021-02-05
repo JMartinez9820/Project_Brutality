@@ -705,7 +705,7 @@ Steady:
 				}
 		}
 		N8N0 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 1 {
-			A_DoPBWeaponAction(WRF_ALLOWRELOAD | WRF_NOFIRE);
+			A_DoPBWeaponAction(WRF_ALLOWRELOAD | WRF_NOFIRE | WRF_NOSWITCH);
 			A_FireCustomMissile("GunFireSmoke", 0, 0, -2, -8, 0, 0);
 			A_FireCustomMissile("GunFireSmoke", 0, 0, 2, -8, 0, 0);
 			}
